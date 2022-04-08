@@ -2,42 +2,28 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generador de contraseñas</title>
-    <link rel="stylesheet" href="style.css" />
-    <script src="script.js" defer></script>
-    <link rel="shortcut icon" href="favicon.png">
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="stylesheet" href="styleLanding.css" />
   </head>
   <body>
-    <div class="pw-container">
-      <div class="pw-header">
-        <div class="pw">
-          <span id="pw">l823Zs78#Css09@</span>
-          <button id="copy">Copiar</button>
-        </div>
+    <div class="container">
+      <div class="header">
+        <p>INSTRUCCIONES</p>
       </div>
-      <div class="pw-body">
-        <div class="form-control">
-          <label for="len">Longuitud de la Contraseña</label>
-          <input id="len" value="8" type="number" min="2" max="20" />
-        </div>
-        <div class="form-control">
-          <label for="upper">Incluir Mayúsculas(QWERTY)</label>
-          <input id="upper" type="checkbox" />
-        </div>
-        <div class="form-control">
-          <label for="lower">Incluir Minúsculas(qwerty)</label>
-          <input id="lower" type="checkbox" />
-        </div>
-        <div class="form-control">
-          <label for="number">Incluir Números(1234)</label>
-          <input id="number" type="checkbox" />
-        </div>
-        <div class="form-control">
-          <label for="symbol">Caracteres especiales(@#$%)</label>
-          <input id="symbol" type="checkbox" />
-        </div>
-        <button class="generate" id="generate">Generar Contraseña</button>
+      <p>1. Indica de cuantos caracteres quiere que sea la contraseña</p>
+      <p>
+        2. Selecciona si deseas incluir mayúsculas, minúsculas, números y/o
+        caracteres especiales
+      </p>
+      <p>3. Presione el botón de generar contraseña</p>
+      <p>
+        4. Coloca el cursor sobre la contraseña para poder copiarla y listo!!
+      </p>
+      <div class="btn">
+        <a href="/home.html"><button class="generate">Continuar</button></a>
       </div>
     </div>
   </body>
